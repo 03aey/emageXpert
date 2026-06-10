@@ -291,10 +291,11 @@ export default function Home() {
 				animate={{ opacity: 1 }}
 				transition={{ duration: 0.8, delay: 1 }}
 			>
-				© 2024 EmageXpert &nbsp; ❤️
+				© {new Date().getFullYear()} EmageXpert |
 				<a
-					className="hover:underline"
-					href="https://github.com/alok-x0s1"
+					className="underline"
+					href="https://github.com/03aey"
+					target="_blank"
 				>
 					Alok Yadav
 				</a>
